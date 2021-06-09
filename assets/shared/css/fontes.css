@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'lato';
+	src: url('./fontes/lato.eot');
+	src: local('?'), url('./fontes/lato.woff') format('woff'), url('./fontes/lato.ttf') format('truetype'), url('./fontes/lato.svg#webfontjHPQvLbp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'latob';
+	src: url('./fontes/latob.eot');
+	src: local('?'), url('./fontes/latob.woff') format('woff'), url('./fontes/latob.ttf') format('truetype'), url('./fontes/latob.svg#webfontjHPQvLbp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'latoi';
+	src: url('./fontes/latoi.eot');
+	src: local('?'), url('./fontes/latoi.woff') format('woff'), url('./fontes/latoi.ttf') format('truetype'), url('./fontes/latoi.svg#webfontjHPQvLbp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'latof';
+	src: url('./fontes/latof.eot');
+	src: local('?'), url('./fontes/latof.woff') format('woff'), url('./fontes/latof.ttf') format('truetype'), url('./fontes/latof.svg#webfontjHPQvLbp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

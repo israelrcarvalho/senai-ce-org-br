@@ -1,0 +1,144 @@
+
+
+div.dialog {
+    background-color: #b31216;
+    border-radius: 3px;
+    box-shadow: 0px 0px 7px #333333;
+    color: #FFF;
+    display: none;
+    font: inherit;
+    height: auto;
+    left: 33%;
+    padding: 20px;
+    position: absolute;
+    text-align: center;  
+    top: 340px;
+    width: 200px;    
+}
+
+.error {
+    border: 1px solid red !important;
+    background-color: #f7e2c9 !important;
+}
+
+.dialog2 {    
+    display: none;
+    background-color: #F4F5FC;
+    border: #747373 1px solid;
+    border-radius: 6px;
+    padding: 0.2em;
+    position: absolute;
+    z-index: 50;
+    box-shadow: 0px 0px 7px #333333;
+    width: 305px;    
+}
+
+.dialog2.quero-contratar {
+    width: 430px;
+    left: 35%;
+}
+
+.dialog2 .title-bar {
+    height: 30px;
+    background-color: #d3d3d3;
+    position: relative;    
+    padding: 0.3em;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    
+}
+
+.dialog2 .close {
+   background: #d3d3d3 url('images/close.png') no-repeat; 
+   height: 24px;
+   width: 24px;
+   position: absolute;
+   right: 3px;
+   top: 1px;
+   cursor: pointer;   
+}
+
+.dialog2 .box-content {
+    padding: 0.5em;
+}
+
+.dialog2 .dialog {
+    top: 5%;
+    left: 20%;
+}
+
+
+
+.solicitacao {
+    font-family: "latof";
+/*    width: 25%;*/
+    float: right;
+    clear: right;
+    text-align: center;
+    background-color: #999;
+    color: #fff;
+    margin-bottom: 1em;
+    
+}
+
+.solicitacao a {
+    color: #fff;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 1.3em;
+    cursor: pointer;
+}
+
+.solicitacao:hover {
+    background-color: #666;
+}
+
+.conteudo.interna .solicitacao {
+    width: 25%;
+}
+
+.grupo-box .solicitacao {
+    width: 100%;
+}
+
+
+
+div#btn-quero-contratar {
+    background-color: #999;
+    color: #fff;
+    float: right;
+    font-family: "latof";
+    overflow: hidden;
+    text-align: center;
+    width: 25%;
+}
+
+div#btn-quero-contratar  a {
+    color: #fff;
+    display: block;
+    height: 100%;
+    padding: 1.3em;
+    width: 100%;
+}
+
+div#btn-quero-contratar :hover {
+    background-color: #666;
+}
+
+div#creditos {    
+    font-size: 0.67em;
+    font-style: italic;
+    color: #fff;
+    float: right;
+    position: relative;
+    top: 12px;
+}
+
+.noticia-data {
+    color: #929292;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: block;
+}

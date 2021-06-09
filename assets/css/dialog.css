@@ -1,0 +1,20 @@
+div.dialog {
+    background-color: #b31216;
+    border-radius: 3px;
+    box-shadow: 0px 0px 7px #333333;
+    color: #FFF;
+    display: none;
+    font: inherit;
+    height: auto;
+    left: 33%;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    top: 340px;
+    width: 200px;
+}
+
+.error {
+    border: 1px solid red !important;
+    background-color: #f7e2c9 !important;
+}

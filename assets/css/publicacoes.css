@@ -1,0 +1,70 @@
+/* CSS Publicações */
+
+/*
+
+padding: 15px 5px;
+border: solid 1px red;
+width: 80%;
+clear: both;
+
+*/
+.odd {  background: #ccc;  }
+
+#publicacoes {
+	overflow: hidden;
+}
+	#publicacoes table.tabela_tuplicacoes {
+		width: 100%;
+		margin-bottom: 20px;
+		clear: both;
+		position: relative;
+		margin-top: 15px;
+	}
+
+		/* -- Thead --*/
+		#publicacoes table.tabela_tuplicacoes thead {
+
+                        background-color: #434343;
+		}
+			#publicacoes table.tabela_tuplicacoes thead td {
+				font: 13px 'myriadb', Arial, Helvetica, sans-serif;
+				color: #FFF;
+				padding: 7px 0px;
+				/* text-shadow: 1px 1px 2px #6D4507; */
+				text-align: center;
+				border-left: 1px solid #fff;
+			}
+
+		/* -- Tbody --*/
+		#publicacoes table.tabela_tuplicacoes tbody tr.odd {
+			background: #f9f0da;
+		}
+			#publicacoes table.tabela_tuplicacoes tbody tr:hover td {
+				font: 13px 'myriadi', Arial, Helvetica, sans-serif;
+				color: #88670f;
+				vertical-align: middle;
+			}
+
+			#publicacoes table.tabela_tuplicacoes tbody td {
+				font: 13px 'myriad', Arial, Helvetica, sans-serif;
+				color: #333;
+				padding: 8px 0px;
+				text-align: center;
+				vertical-align: middle;
+				border-bottom: 1px solid #f5e8c7;
+			}
+			#publicacoes table.tabela_tuplicacoes tbody td.td_titulo {
+				text-align: left;
+				padding-left: 10px;
+			}
+
+				#publicacoes table.tabela_tuplicacoes tbody td a.bt_pdf {
+					display: block;
+					background: url(../images/pdf.png) no-repeat;
+					width: 15px;
+					height: 18px;
+					margin: 0 auto;
+					padding: 0;
+					font-size: 1;
+					text-indent: -9999px;
+				}
